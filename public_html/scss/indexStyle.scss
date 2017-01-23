@@ -8,10 +8,11 @@ and open the template in the editor.
     Author     : Dominik Paluch <dominik.paluch@o2.pl>
 */
 
-.wrapper img {
-    //position: absolute; //gdy jest absolute to height = 0 !!!!
+.wrapper img{
+    //position: fixed; //gdy jest absolute to height = 0 !!!!
     top: 0; 
     left: 0; 
+    //max-height: 668px;
     
 }
 

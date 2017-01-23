@@ -1,0 +1,140 @@
+
+$uhd: 1700px;
+$hd: 1450px;
+$lg: 1150px;
+$md: 991px;
+$sm: 600px;
+$xs: 0;
+
+
+/*
+@media all and (min-width:$uhd){
+    .content-right .picture {
+        width: 25%;
+    }
+}
+@media all and (max-width:$uhd) {
+    .content-right .picture {
+        width: 33.33%;
+    }
+
+}
+
+@media all and (max-width:$lg) {
+    .content-right {
+        .picture {
+            width: 50%;
+        }
+
+        width: 60%;
+    }
+
+    .content-left{
+        width: 40%;
+    }
+
+}
+@media all and (max-width:$md){
+    .content-right {
+        width: 100%;
+
+        .picture {
+            width: 50%;
+        }
+    }
+
+    .wrapper .nav .logo{
+        float: none;
+    }
+
+    .wrapper .nav .nav-menu{
+        float: left;
+        width: 100%;
+    }
+
+    .nav-menu__item{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wrapper .nav .logo{
+        padding: 0;
+        text-align: center;
+    }
+
+    .wrapper .nav-top{
+        float: none;;
+    }
+
+    .option {
+        float: left;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    a{
+        display: inline-block;
+    }
+
+    .wrapper .nav-menu__item a {
+        display: block;
+        padding: 13px 15px;
+
+    }
+
+    .content-left{
+        width: 100%;
+
+        .calendar .dataBlock {
+            width: calc(50% - 10px);
+            margin-right: 10px;
+            float: left;
+
+            .date .monthYear {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media all and (max-width:$sm){
+    .content-right {
+        .text {
+            padding: 50px 0px 50px 20px;
+        }
+        .picture {
+            width: 100%;        
+        }
+
+        .date .dateAll {
+            text-align: center;
+            position: relative;
+            right: 0px;
+            top: 0;
+            color: #b0b0b0;
+            font-weight: 300;
+        }
+    }
+
+    .content{
+        .mainTitle {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .smallTitle {
+
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    } 
+    .content-left .calendar .dataBlock {
+        width: 100%;
+        float: left;
+    }
+
+
+}
+
+*/

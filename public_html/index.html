@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css"  href="css/style.css" rel="stylesheet">
+        <title>Jantar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>	
+    </head>
+    <body>
+        <div class="wrapper row">
+            <img  src="img/background.jpeg" alt="Background doesn't load correctly!">
+        </div>
+<!--        <div class="content row">
+            <img src="img/inny.jpg" alt="alt" width="200">
+        </div>-->
+
+        <script>
+            $(function () {
+
+                var theWindow = $(window),
+                        $bg = $(".wrapper img"),
+                        aspectRatio = $bg.width() / $bg.height();
+
+                function resizeBg() {
+
+                    if ((theWindow.width() / theWindow.height()) < aspectRatio) {
+                        $bg
+                                .removeClass()
+                                .addClass('bgheight');
+                    } else {
+                        $bg
+                                .removeClass()
+                                .addClass('bgwidth');
+                    }
+
+                }
+
+                theWindow.resize(function () {
+                    resizeBg();
+                }).trigger("resize");
+
+            });
+        </script>
+
+    </body>
+</html>
